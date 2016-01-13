@@ -1,0 +1,25 @@
+{
+  "name": "code-exercises",
+  "version": "1.0.0",
+  "description": "Practicing code exercises in Javascript (ES6)",
+  "main": "run.js",
+  "scripts": {
+    "run": "babel-cli exercises/happy-numbers",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Connorelsea/code-exercises.git"
+  },
+  "author": "Connor Elsea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Connorelsea/code-exercises/issues"
+  },
+  "homepage": "https://github.com/Connorelsea/code-exercises#readme",
+  "dependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.3.13"
+  }
+}
